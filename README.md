@@ -1,16 +1,11 @@
-# template-pc-vue3-element-plus
+# template-wap-vue3-vant-ts
 
 ~~~
 - vue3
-- vue-router
+- vue-router 4
 - vuex
 - typescript
-- element-plus
 - vite
-- pc
-- axios
-- mock
-- MPA
 ~~~
 
 ## Project setup
