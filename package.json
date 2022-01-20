@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "dev:mock": "vite --mode mock",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -12,12 +13,15 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
+    "axios": "^0.25.0",
+    "mockjs": "^1.1.0",
     "postcss": "^8.4.5",
     "postcss-pxtorem": "^6.0.0",
     "sass": "^1.45.1",
     "typescript": "^4.4.4",
     "vant": "^3.4.2",
     "vite": "^2.7.2",
+    "vite-plugin-mock": "^2.9.6",
     "vite-plugin-style-import": "^1.4.1",
     "vue-router": "^4.0.12",
     "vue-tsc": "^0.29.8"
