@@ -19,5 +19,10 @@ export default defineConfig({
         nested: resolve(__dirname, 'nested/index.html')
       }
     }
-  }
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
 })

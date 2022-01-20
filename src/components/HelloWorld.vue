@@ -29,7 +29,9 @@ const count = ref(0)
     |
     <a href="https://youzan.github.io/vant/v3/#/zh-CN/home" target="_blank">Vant 3</a>
     |
-    <a href="/test" target="_blank">Test</a>
+    <a href="https://next.router.vuejs.org/zh/installation.html" target="_blank">Vue Router 4</a>
+    |
+    <a href="#/test" target="_blank">#Test</a>
   </p>
   <button type="button" @click="count++">count is: {{ count }}</button>
 </template>
