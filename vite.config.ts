@@ -5,7 +5,7 @@ import styleImport, { VantResolve } from 'vite-plugin-style-import';
 import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vitejs.dev/config/
-export default({command, mode})=>{
+export default({mode})=>{
   let prodMock = true
   return  defineConfig({
     plugins: [
